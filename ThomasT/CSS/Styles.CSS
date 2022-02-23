@@ -1,0 +1,206 @@
+
+
+
+.img {
+	size: fill;
+left: 0;
+position: absolute;
+}
+
+header {
+	
+	background-color:#BA47DF ;
+	text-align: center;
+	
+
+}
+
+ul {
+	color: #ffff;
+	height: 100%;
+	
+
+	
+}
+
+header li {
+	
+	z-index: 2;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	
+	}
+
+header li a {
+	color: #FE8308;
+	display: block;
+	padding: 20px;
+	padding-left: 35px;
+	
+}
+
+header li:hover a {
+	background-color: #F9A55F;
+	color: #fff;
+	transition: 0.3s all;
+}
+
+header li:hover .sub-menu {
+	display: block;
+}
+
+
+.sub-menu {
+	z-index: 2;
+	display: none;
+	position: absolute;
+	background-color: #F9A55F;
+	
+}
+
+.sub-menu li {
+	display: block;
+}
+
+.sub-menu li:hover a {
+	color: #fff;
+}
+
+.sub-menu li:hover a {
+	background-color: #fff;
+	color: #BA47DF;
+	transition: 0.3s all;
+}
+
+
+
+.wrapper {
+
+	z-index: 5;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+
+h1{
+	font-size: 30px;
+}
+
+
+h3 {
+	font-size: 16;
+	color: #f9baf8;
+}
+
+
+
+.pres{
+	color: darkred;
+
+}
+
+iframe{
+	padding: 30px;
+}
+
+.gif{
+	align-content: center;
+}
+
+
+.bulls{
+	color: #490d25;
+	font-size: 22px;
+	font-style: arial;
+	padding-bottom: 20px;
+}
+
+
+.corps{
+	height: 1080px
+}
+
+
+
+.border{
+	position: absolute;	
+	top : 56px;
+	height: 1080px;
+	filter: blur(6px);
+	width: 100%;
+	overflow: hidden;
+}
+
+.side{
+	height: 100%;
+	margin-left: -38%;
+	overflow: hidden;
+}
+
+.side2{
+	height: 100%;
+	right: -30%;
+
+
+	position: absolute;	
+
+}
+
+.site{
+	top: 0;
+	position: absolute;
+	height: 100%;
+	width: 70%;
+	background-color: #eee;
+	margin: auto;
+	text-align: center;	
+	position: relative;
+	z-index: auto;
+}
+
+.redirect{
+	font-size: 26px;
+	font-style: oblique;
+	color: blueviolet;
+
+}
+
+
+.copyrights{
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+
+}
+
+.atrium {
+	color: #e39269;
+}
+
+.pts{
+	font-size: 40px;
+
+}
+
+.home{
+	padding-left: 10px;
+	vertical-align: middle;
+	position: absolute;
+	left: 20px;
+}
+
+
+.bulmenu{
+	background-color: #CE1141;
+
+}
+
+.bulmenu li a{
+	color: #000000;
+}
+
+.bulmenu li:hover a{
+	background-color: #fff;
+	color: #CE1141;
+}

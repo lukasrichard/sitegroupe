@@ -1,0 +1,233 @@
+img {
+	display: block;
+}
+
+body {
+	background-color: #D8D8D8;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	border: 1px solid #eee;
+}
+
+
+header{
+	border: 1px solid #eee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	color: #333;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+header {
+	border-bottom: 1px solid #eee;
+}
+
+header li {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+header li a {
+	display: block;
+	padding: 20px;
+}
+
+header li:hover a {
+	background-color: #a40000;
+	color: #fff;
+	transition: 0.3s all;
+}
+
+header li:hover .sub-menu {
+	display: block;
+}
+
+
+.sub-menu {
+	display: none;
+	position: absolute;
+	background-color: #a40000;
+	width: 200px;
+}
+
+.sub-menu li {
+	display: block;
+}
+
+.sub-menu li:hover a {
+	color: #fff;
+}
+
+.sub-menu li:hover a {
+	background-color: #fff;
+	color: #a40000;
+	transition: 0.3s all;
+}
+
+section.wrapper {
+	margin-top: 35px;
+}
+
+
+
+.contact  a{
+	color: red;
+}
+
+.contact{
+	color: blue;
+}
+
+
+.qui{
+	color: blue;
+}
+
+.cc {
+	color: blue;
+}
+
+
+.bod{
+	background-color: black;
+	color: #56D7D6;
+}
+
+
+header.head a{
+	color: blue;
+}
+
+
+
+font-size{
+	color: blue;
+}
+
+
+div#content{
+	background-color: #777;
+}
+
+
+div#content div{
+	display: inline-block;
+	width: 48%;
+}
+
+
+
+div#content div.leftbox{
+	background-color: yellow;
+	vertical-align: top;
+}
+
+div#content div h1, p, iframe{
+	margin: 35px;
+}
+
+div#content div.rightbox{
+	background-color: green;
+
+}
+
+div#content div.annonce{
+	background-color: purple;
+	width: 100%;
+	margin: 8px;
+	color: white;
+}
+
+
+
+nav.menu-nav ul li.btn{
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav.menu-nav ul li.btn a{
+	color: white;
+	background-color: #E21C44;
+	text-decoration: none;
+	padding: 10px;
+
+}
+nav.menu-nav ul li.btn:hover a{
+	color: white;
+	background-color: #9F1320;
+	transition: 0.3s all;
+}
+
+footer{
+	background-color: ;
+}
+
+div.annonce img{
+	border-radius: 50%;
+}
+
+
+/*p.welcome{
+	color: white;
+	background-color: #E21C44;
+	font-weight: bold;
+}
+
+p.vivecss{
+	color: blue;
+	font-weight: bold;
+}
+
+body{
+	background-color: #777;
+}
+
+
+h2.headline{
+	font-size: 50px;
+	padding: 25px;
+	padding-left: 200px;
+}*/
+
+

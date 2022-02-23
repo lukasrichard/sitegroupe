@@ -1,0 +1,16 @@
+.erreur {
+    position: absolute;
+    background: url(img/404.jpg);
+    width: 500px;
+    height: 500px;
+    padding: 200px;
+    margin-left: 350px;
+    background-size: 100% 100%;
+}
+.accueil {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(185, 33, 33);
+}
+.accueil:hover {
+    color: black;
+}

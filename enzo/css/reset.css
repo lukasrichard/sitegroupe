@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.cta__purchase {
+	display: block;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    will-change: background,box-shadow;
+    transition: all .1s ease-in-out;
+    margin: .25rem;
+    border-radius: 2rem;
+}
+.cta__inner {
+	cursor: pointer;
+    position: relative;
+    text-align: center;
+    border-radius: 2rem;
+    margin: 0;
+    font-size: var(--text-4);
+    font-weight: 600;
+    line-height: 1.25em;
+    padding: var(--space-4) var(--space-5);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    background: #cd3d0f;
+}
+.cta__inner2 {
+	cursor: pointer;
+    position: relative;
+    text-align: center;
+    border-radius: 2rem;
+    margin: 0;
+    font-size: var(--text-4);
+    font-weight: 600;
+    line-height: 1.25em;
+    padding: var(--space-4) var(--space-5);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    background: #3362fc;
+}
+.cta__inner3 {
+	cursor: pointer;
+    position: relative;
+    text-align: center;
+    border-radius: 2rem;
+    margin: 0;
+    font-size: var(--text-4);
+    font-weight: 600;
+    line-height: 1.25em;
+    padding: var(--space-4) var(--space-5);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    background: #3dd129;
+}
+.cta__inner4 {
+	cursor: pointer;
+    position: relative;
+    text-align: center;
+    border-radius: 2rem;
+    margin: 0;
+    font-size: var(--text-4);
+    font-weight: 600;
+    line-height: 1.25em;
+    padding: var(--space-4) var(--space-5);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    background: #d11c1c;
+}
